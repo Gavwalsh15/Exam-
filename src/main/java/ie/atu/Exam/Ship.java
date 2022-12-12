@@ -1,11 +1,19 @@
 package ie.atu.Exam;
 
+
+
 public class Ship {
+
+
+
     private String shipName;
     private String shipAge;
     private int crewNum;
 
     public Ship() {
+    }
+
+    public Ship(String shipName, String shipAge, int crewNum) {
     }
 
     public String getShipName() {
@@ -34,10 +42,11 @@ public class Ship {
 
     @Override
     public String toString() {
-        return "Ship{" +
-                "shipName='" + shipName + '\'' +
-                ", shipAge='" + shipAge + '\'' +
-                ", crewNum=" + crewNum +
-                '}';
+        return
+                "Ship Name: " + shipName + "\n" +
+                "Ship Age: " + shipAge + "\n" +
+                "Crew Number: " + crewNum +
+                "\n";
     }
+    
 }
