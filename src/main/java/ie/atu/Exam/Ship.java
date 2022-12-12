@@ -48,5 +48,5 @@ public class Ship {
                 "Crew Number: " + crewNum +
                 "\n";
     }
-    
+
 }
