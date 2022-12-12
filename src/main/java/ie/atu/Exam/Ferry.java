@@ -1,6 +1,7 @@
 package ie.atu.Exam;
 
 public class Ferry extends Ship{
+
     private int maxPassenger;
 
     public Ferry() {

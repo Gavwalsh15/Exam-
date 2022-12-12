@@ -1,10 +1,7 @@
 package ie.atu.Exam;
 
 
-public class VessalApp<myship> {
-
-
-
+public class VessalApp{
     public static void main(String[] args) {
         Ship myship = new Ship();
         Ferry CFerry = new Ferry();
