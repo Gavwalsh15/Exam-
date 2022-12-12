@@ -1,12 +1,11 @@
 package ie.atu.Exam;
 
 
-public class VessalApp {
+public class VessalApp<myship> {
 
 
 
     public static void main(String[] args) {
-
         Ship myship = new Ship();
         Ferry CFerry = new Ferry();
         Trawler MTrawler = new Trawler();
@@ -26,8 +25,8 @@ public class VessalApp {
         MTrawler.setCargo(500);
 
         System.out.println("Ship -\n"+ myship);
-        System.out.println("Ferry -\n"+CFerry);
-        System.out.println("Trawler -\n"+MTrawler);
+        System.out.println("Ferry -\n"+ CFerry);
+        System.out.println("Trawler -\n"+ MTrawler);
     }
 }
 

@@ -1,10 +1,6 @@
 package ie.atu.Exam;
 
-
-
 public class Ship {
-
-
 
     private String shipName;
     private String shipAge;
